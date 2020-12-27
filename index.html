@@ -40,10 +40,10 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
@@ -72,9 +72,9 @@
                         <h4 class="title-text text-uppercase">Software Developer</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Contact
+                                <button type="button" onclick="location.href='#contact';" class="btn button primary-button mr-4 text-uppercase">Contact
                                     Me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Get CV</button>
+                                <button type="button" onclick="location.href='#about';"class="btn button secondary-button text-uppercase">About Me</button>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
 
         <!--  ======================= Start About Area =======================  -->
 
-        <section class="about-area">
+        <section class="about-area" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -96,22 +96,18 @@
                             <img src="./img/about-me.png" alt="About" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 about-title">
+                    <div class="col-lg-6 col-md-12 about-title" >
                         <h2 class="text-uppercase">
                             <span>Let me</span>
                             <span>introduce</span>
                             <span>myself</span>
                         </h2>
                         <div class="paragraph py-3 w-75">
-                            <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus praesentium
-                                vero facere soluta enim aut. Sit, odit sint. Possimus, delectus!
+                            <p class="para"> Industrial engineer having practical experience on software development, particularly creating applications for defense industry. Open to learn new technologies, especially interested in web programming.
                             </p>
-                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus,
-                                inventore perferendis libero animi nemo explicabo voluptatem recusandae quos placeat
-                                ipsa.</p>
-                            <button type="button" class="btn button primary-button mr-4 text-uppercase">Download
-                                CV</button>
-
+                            
+                            <button type="button" onclick="location.href='./resume.html';" class="btn button primary-button mr-4 text-uppercase">Go to My Resume
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -125,7 +121,7 @@
         <!--  ======================= Start Contact Me Area =======================  -->
  
 
-        <section class="contact-me-area">
+        <section class="contact-me-area" id="contact">
             <div class="container contact-me">
                 <div class="row">
                     <div class="col-lg-12 text-center contact-me-title">
@@ -139,16 +135,16 @@
                     <div class="row d-flex flex-row flex-wrap">
 
                         <div class="links">
-                            <a href="mailto:asya.ilkturk@gmail.com"><i class="fas fa-envelope-square"></i>E-mail</a>
-                            <a href="https://www.linkedin.com/in/asya-ilkt%C3%BCrk-783991146/"><i
+                            <a href="mailto:asya.ilkturk@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i>E-mail</a>
+                            <a href="https://www.linkedin.com/in/asya-ilkt%C3%BCrk-783991146/" target="_blank"><i
                                     class="fab fa-linkedin"></i>Linkedin</a>
-                            <a href="https://github.com/asyailkturk"><i class="fab fa-github-square"></i>GitHub</a>
+                            <a href="https://github.com/asyailkturk"><i class="fab fa-github-square" target="_blank"></i>GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <!--  ======================= End Contact Me Area =======================  -->
 
 
