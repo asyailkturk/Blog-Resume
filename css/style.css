@@ -21,7 +21,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 15px/2px var(--raleway);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -58,7 +58,6 @@
     height: 2px;
     width: 12vw;
     background: black;
-    display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
 
@@ -96,7 +95,7 @@
 .site-main .about-area .about-title h2>span {
 
     display: block;
-    font:normal  49px/60px var(--roboto);
+    font:normal  49px/60px var(--raleway);
     letter-spacing: 21px;
 }
 
@@ -120,7 +119,7 @@
 .site-main .contact-me-area .contact-me .contact-me-title h4{
     
     display: block;
-    font:normal  30px/ 30px var(--roboto);
+    font:normal  30px/ 30px var(--raleway);
     color: whitesmoke;
 }
 
@@ -129,8 +128,14 @@
     padding: 1rem 4rem;
 }
 
+.site-main .contact-me-area .contact-me .links {
+  display:flex;
+   
+} 
+
 .site-main .contact-me-area .contact-me .links a{
     color: whitesmoke;
+   
 } 
 
 .site-main .contact-me-area .contact-me .links a:hover{
@@ -157,9 +162,13 @@ footer.footer-area{
 }
 
 footer.footer-area .footer-link .para{
-    font: normal 500 18px/25px var(--roboto);
+    font: normal 500 18px/25px var(--raleway);
 }
 
 
 
 /* End Footer */ 
+
+html {
+    scroll-behavior: smooth;
+  }
